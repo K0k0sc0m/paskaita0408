@@ -1,17 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
 <?php
 
 
+$arr = [];
 
+for ($i=0; $i < 30 ; $i++) { 
+    $arr[$i] = rand(20,40);
+}
+
+foreach($arr as $a){
+    echo $a . " ";
+}
+
+echo "<br>";
+
+
+$arr1 = [];
+$b = 0;
+
+
+
+for ($i=0; $i < 11 ; $i++) { 
+    $arr1[$i] = $b++;
+}
+
+print_r($arr1);
 
 
 
@@ -21,5 +33,3 @@
 
 
 
-</body>
-</html>
