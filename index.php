@@ -94,7 +94,7 @@ echo "<br>";
 echo "<hr>";
 echo "<h1> KETVIRTAS </h1>";
 
-$gyvunas = array("species"=>" ","age"=>" ","name"=>" ","descriptio"=>" ");
+$gyvunas = array("species"=>" ","age"=>" ","name"=>" ","description"=>" ");
 
 print_r($gyvunas);
 
