@@ -1,5 +1,17 @@
+<style>
+
+    h1 {
+        color: red;
+    }
+
+
+</style>
+
+
 <?php
 
+
+echo "<h1> PIRMAS </h1>";
 
 $arr = [];
 
@@ -13,7 +25,7 @@ foreach($arr as $a){
 
 echo "<br>";
 echo "<hr>";
-
+echo "<h1> ANTRAS </h1>";
 
 //  $arr1 = range(0,9);
 //  print_r($arr1);
@@ -48,10 +60,43 @@ for ($i=0; $i < 101; $i++) {
         echo $arr2[$d]. " ";
 }
 
+echo "<br>";
+echo "<hr>";
+echo "<h1> TRECIAS </h1>";
 
+$arr3 = [[]];
+$e = 0;
 
+for ($i=0; $i < 10; $i++) { 
+    $arr3[$i][$i] = $e++;
+    
+}
 
+print_r($arr3);
 
+echo "<br>";
+
+foreach($arr3 as $array){
+    foreach($array as $key=>$value){
+        echo "Key:" .$key. "/ Value:" . $value. "<br>";
+    }
+}
+
+echo "<br>";
+
+foreach($arr3 as $array){
+    foreach($array as $key=>$value){
+      echo "Key:" .$key. "/ Value:" . $value*$value. "<br>";
+    }
+}
+
+echo "<br>";
+echo "<hr>";
+echo "<h1> KETVIRTAS </h1>";
+
+$gyvunas = array("species"=>" ","age"=>" ","name"=>" ","descriptio"=>" ");
+
+print_r($gyvunas);
 
 
 
